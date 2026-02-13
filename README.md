@@ -73,7 +73,7 @@ This summation allows the model to combine short-term oscillations and long-term
   - `NumPy`: reshaping the data
   - `yfinance`: data acquisition for historial Bitcoin data
   - `Scikit-Learn`: data processing, model selection by quantifying performance metrics, Train-Test sets model development
-  - `TensorFlow`, `Keras`: deep learning framework to construct N-BEATS architecture with layers
+  - `TensorFlow 2.20.0`, `Keras`: deep learning framework to construct N-BEATS architecture with layers
   - `OpenBB`: collect unified data router and toolbox for financial analysis
   - `Matplotlib`: create data visulization
 - **Environment:** `Jupyter Notebook`
