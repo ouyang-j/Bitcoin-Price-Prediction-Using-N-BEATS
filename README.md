@@ -2,10 +2,10 @@
 
 This is a replication study of the research paper "**Bitcoin Price Prediction Using N-BEATS ML Technique**" published in *EAI Endorsed Transactions on Scalable Information Systemsby* by G. Asmat and K. M. Maiyama. The project evaluates the efficacy of the Neural Basis Expansion Analysis Time Series (N-BEATS) architecture in forecasting Bitcoin prices, specifically focusing on its ability to handle the extreme volatility, nonlinearity and stochasity of cryptocurrency markets.
 
-## Project Overview
+## 1. Project Overview
 Cryptocurrency markets are characterized by high-frequency fluctuations and non-linear dependencies. This project demonstrates how the N-BEATS deep learning architecture provides a robust prediction by decomposing time series into interpretable trend and seasonality components comparing to traditional models such as Linear Regression and Long-Short-Term-Memory (LSTM) network.
 
-## Key Features
+## 2. Key Features
 - **Data:** Most recent 729 days of hourly Bitcoin price data, sourced from Yahoo Finance.
 - **Pre-processing:**
   - Implementation of Min-Max scaling to normalize features (Open, High, Low, Close, Adj Close, Volume).
@@ -33,7 +33,12 @@ $$MAE = \frac{1}{n} \sum_{i=1}^n |y_i - \hat{y}_i|$$
   - **Interpretability:** Decomposition of predictions into trend and seasonality blocks.
   - **Results:** The N-BEATS model demonstrated superior performance in capturing Bitcoin's volatile price movements compared to traditional and recurrent neural network baselines, particularlly, a robust trend capturing during high-volatility periods.
 
-## N-BEATS Mathematical Formulation
+## 3. Bitcoin Prices Comparison: Actual vs Prediction
+![HighPred](images/HighPred.png)
+![LowPred](images/LowPred.png)
+
+
+## 4. N-BEATS Mathematical Formulation
 The Neural Basis Expansion Analysis for Time Series (N-BEATS) is a deep learning architecture specifically engineered for time series forecasting without the need for domain-specific feature engineering. It is characterized by a hierarchical structure of blocks and stacks that utilize fully connected layers and residual connections to decompose data into interpretable signals like trend and seasonality.
 ### Block Operation
 For each block $b$ with input $x_{b}$, the model computes a set of expansion coefficients ($\theta$) using fully connected layers:
@@ -61,7 +66,7 @@ $$\hat{y} = \sum_{b} \hat{y}_{b}$$
 This summation allows the model to combine short-term oscillations and long-term trends into a single, highly accurate Bitcoin price prediction.
 
 
-## Technical Stack
+## 5. Technical Stack
 - **Language:** `Python 3.12 64-bit`
 - **Libraries:** :
   - `Pandas`: data structural manipulation
@@ -73,7 +78,7 @@ This summation allows the model to combine short-term oscillations and long-term
   - `Matplotlib`: create data visulization
 - **Environment:** `Jupyter Notebook`
 
-## References
+## 6. References
 Asmat, G., and K. M. Maiyama. “Bitcoin Price Prediction Using N-Beats ML Technique.” *EAI Endorsed Transactions on Scalable Information Systems*, April 1, 2025. https://doi.org/10.4108/eetsis.9006.
 
 Mann , William. Quantitative Alpha In Crypto Markets: A Systematic Review of Factor Models, Arbitrage Strategies, and Machine Learning Applications. *HarmoniQ Insights, Quantitative Research and Technology Advisors*, 2025. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5225612. 
