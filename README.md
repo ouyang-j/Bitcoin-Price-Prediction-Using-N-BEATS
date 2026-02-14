@@ -107,19 +107,19 @@ Predetermined hyperparemeters which is the same as the replicated paper
 - **Environment:** `Jupyter Notebook`
 
 ## 7. References
-Asmat, G., and K. M. Maiyama. “Bitcoin Price Prediction Using N-Beats ML Technique.” *EAI Endorsed Transactions on Scalable Information Systems*, April 1, 2025. https://doi.org/10.4108/eetsis.9006.
+- Asmat, G., and K. M. Maiyama. “Bitcoin Price Prediction Using N-Beats ML Technique.” *EAI Endorsed Transactions on Scalable Information Systems*, April 1, 2025. https://doi.org/10.4108/eetsis.9006.
 
-Mann , William. Quantitative Alpha In Crypto Markets: A Systematic Review of Factor Models, Arbitrage Strategies, and Machine Learning Applications. *HarmoniQ Insights, Quantitative Research and Technology Advisors*, 2025. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5225612. 
+- Mann , William. Quantitative Alpha In Crypto Markets: A Systematic Review of Factor Models, Arbitrage Strategies, and Machine Learning Applications. *HarmoniQ Insights, Quantitative Research and Technology Advisors*, 2025. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5225612. 
 
-Maswood, Mirza Mohd, and Abdullah G. Alharbi. “Deep Learning-Based Stock Price Prediction Using LSTM and Bi-Directional LSTM Model.” *2020 2nd Novel Intelligent and Leading Emerging Sciences Conference (NILES)*, October 24, 2020, 87–92. https://doi.org/10.1109/niles50944.2020.9257950.
+- Maswood, Mirza Mohd, and Abdullah G. Alharbi. “Deep Learning-Based Stock Price Prediction Using LSTM and Bi-Directional LSTM Model.” *2020 2nd Novel Intelligent and Leading Emerging Sciences Conference (NILES)*, October 24, 2020, 87–92. https://doi.org/10.1109/niles50944.2020.9257950.
 
-Nakamoto, Satoshi. Bitcoin: A peer-to-peer electronic cash system, 2008. https://bitcoin.org/bitcoin.pdf.
+- Nakamoto, Satoshi. Bitcoin: A peer-to-peer electronic cash system, 2008. https://bitcoin.org/bitcoin.pdf.
 
-Oreshkin, Boris N., Dmitri Carpov, Nicolas Chapados, and Yoshua Bengio. “N-Beats: Neural Basis Expansion Analysis for Interpretable Time Series Forecasting.” arXiv.org, February 20, 2020. https://arxiv.org/abs/1905.10437.
+- Oreshkin, Boris N., Dmitri Carpov, Nicolas Chapados, and Yoshua Bengio. “N-Beats: Neural Basis Expansion Analysis for Interpretable Time Series Forecasting.” arXiv.org, February 20, 2020. https://arxiv.org/abs/1905.10437.
 
-Shumway, Robert H., and David S. Stoffer. “ARIMA Models. In: Time Series Analysis and Its Applications.” SpringerLink, January 1, 1970.
+- Shumway, Robert H., and David S. Stoffer. “ARIMA Models. In: Time Series Analysis and Its Applications.” SpringerLink, January 1, 1970.
 
-Wang, Minxing, Pavel Braslavski, and Dmitry I. Ignatov. “TimeGPT’s Potential in Cryptocurrency Forecasting: Efficiency, Accuracy, and Economic Value.” Forecasting 7, no. 3 (September 10, 2025): 48. https://doi.org/10.3390/forecast7030048.
+- Wang, Minxing, Pavel Braslavski, and Dmitry I. Ignatov. “TimeGPT’s Potential in Cryptocurrency Forecasting: Efficiency, Accuracy, and Economic Value.” Forecasting 7, no. 3 (September 10, 2025): 48. https://doi.org/10.3390/forecast7030048.
 
 ## 8. Special Thanks
 I am deeply grateful to [William Mann](https://www.linkedin.com/in/william-mann-cfa/), the Managing Partner of [HarmoniQ Insights](https://www.harmoniqinsights.com/), for the invaluable insights and technical codebase provided in his [2025 research](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5225612), which served as a foundational resource for the implementation and validation of this replication study.
