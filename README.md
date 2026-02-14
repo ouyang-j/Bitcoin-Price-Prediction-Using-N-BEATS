@@ -1,4 +1,16 @@
 # Bitcoin Price Prediction Using N-BEATS
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![YFinance](https://img.shields.io/badge/YFinance-%23CBC3E3?style=for-the-badge&logo=yubico&logoColor=purple&logoSize=auto)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+![OpenBB](https://img.shields.io/badge/OpenBB-lightgrey?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB2aWV3Qm94PSIwIDAgMTI2IDM0IiB3aWR0aD0iMTI2IiBoZWlnaHQ9IjM0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGFyaWEtbGFiZWxsZWRieT0iT3BlbkJCIj48dGl0bGUgaWQ9Ik9wZW5CQiI%2BT3BlbkJCPC90aXRsZT48ZyBmaWxsPSJjdXJyZW50Q29sb3IiPjxwYXRoIGQ9Ik02MC43MDcgMS40MTZoLTkuMjg1djQuMjVoOS4yODV2MS40MmgtNy44NTR2NC4yNWg5LjI4M1YxLjQyM2gtMS40MjhsLS4wMDEtLjAwN1ptMCA3Ljc5M3YuNzA3SDU0LjI4VjguNWg2LjQyN3YuNzA5Wm0wLTUuNjY4di43MWgtNy44NTRWMi44MzFoNy44NTVsLS4wMDEuNzFaTTY5Ljk5IDExLjMzM2gyLjg1MlY3LjA4N0g2NC45OVY1LjY3MWg5LjI4NVYxLjQySDYzLjU2MnY5LjkxM2g2LjQyOFptLTUtNy43OTF2LS43MDloNy44NTJWNC4yNUg2NC45OXYtLjcwOVptMi44NTggNi4zNzVINjQuOTlWOC41aDYuNDM4djEuNDE3aC0zLjU4Wk02My41NjMgMGgtMS40Mjh2MS40MTZoMS40MjhWMFpNNzguNTE5IDIyLjcydjguNDU5bC0uNzEyLS43MDQtLjcxLS43MDYtLjcxLS43MDQtLjcxLS43MDYtLjcxMi0uNzA0LS43MTItLjcwNS0uNzEtLjcwNC0uNzEtLjcwNi0uNzEtLjcwNi0uNzEyLS43MDQtLjcxLS43MDQtLjcxMS0uNzA1aC0xLjQyMlYzMy45OThoMS40MjJWMjQuODM0bC43MTEuNzA2LjcxLjcwNi43MTEuNzA0LjcxLjcwNS43MTIuNzA0LjcxLjcwNi43MS43MDQuNzEyLjcwNi43MS43MDQuNzEyLjcwNS43MS43MDYuNzEuNzA0LjcxLjcwNGguNzEyVjIyLjcyMUg3OC41MlpNMTAxLjQwMiAyNi45NWgtMS40MjF2LTQuMjNoLTguNTI4VjM0aDExLjM3NHYtNy4wNTdoLTEuNDIybC0uMDAzLjAwN1ptLTguNTI4LS43MXYtMi4xMWg1LjY4NXYyLjgyaC01LjY4NXYtLjcxWm04LjUyOCAyLjgydjMuNTI4aC04LjUyOHYtNC4yMjdoOC41Mjh2LjY5OVpNMTI0Ljk4NiAyNi45NWgtMi4xMzF2LTQuMjNoLTguNTI5VjM0aDExLjM3di03LjA1N2wtLjcxLjAwN1ptLTkuMjM5LS43MXYtMi4xMWg1LjY4N3YyLjgyaC01LjY4NXYtLjcxWm04LjUzIDIuODJ2My41MjhoLTguNTN2LTQuMjI3aDguNTN2LjY5OVpNNDUuNzgyIDIyLjcySDM1LjgzNHYxMS4yNzhINTUuNzMyVjMyLjU5SDQ3LjIwNFYyOS43N0g1NS43Mjh2LTEuNDFoLTguNTI0VjI0LjEzSDU3LjE1VjIyLjcyMWgtMS40MThaTTkuOTUgMjIuNzJILjAwM1YzNGgxMS4zNzJWMjIuNzJIOS45NVptMCAyLjExNnY3Ljc1NEgxLjQyM3YtOC40Nkg5Ljk1di43MDZaTTMyLjg1NSAyMi43MjFoLTkuOTQ5djExLjI4aDEuNDIyVjI5Ljc3aDkuOTQ4di03LjA1N2gtMS40MjF2LjAwOFptMCAyLjExNnYzLjUyOGgtOC41Mjd2LTQuMjI3aDguNTI3di43MDZaIiBmaWxsPSIjMDAwMDAwIi8%2BPC9nPjwvc3ZnPg%3D%3D&logoColor=white&logoSize=big)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-lightyellow?style=for-the-badge&logo=python&logoSize=auto)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+
+
 
 This is a replication study of the research paper "**Bitcoin Price Prediction Using N-BEATS ML Technique**" published in *EAI Endorsed Transactions on Scalable Information Systemsby* by G. Asmat and K. M. Maiyama. The project evaluates the efficacy of the Neural Basis Expansion Analysis Time Series (N-BEATS) architecture in forecasting Bitcoin prices, specifically focusing on its ability to handle the extreme volatility, nonlinearity and stochasity of cryptocurrency markets.
 
@@ -65,8 +77,24 @@ $$\hat{y} = \sum_{b} \hat{y}_{b}$$
 
 This summation allows the model to combine short-term oscillations and long-term trends into a single, highly accurate Bitcoin price prediction.
 
+## 5. Hyperparemeter Tuning
+Predetermined hyperparemeters which is the same as the replicated paper
 
-## 5. Technical Stack
+<div align="center">
+
+   | Hyperparameters | Values |
+   |     :---:      |     :---:      |
+   | Sequence Length         | 3 hours      | 
+   | Number of blocks          | 3      |
+   | Units per block       | 128      |
+   | Forecast dimension        | 2      |
+   | Batch size        | 64      |
+   | Epochs       | 50      |
+   | Optimizer       | Adam      |
+
+</div>
+
+## 6. Technical Stack
 - **Language:** `Python 3.12 64-bit`
 - **Libraries:** :
   - `Pandas`: data structural manipulation
@@ -78,7 +106,7 @@ This summation allows the model to combine short-term oscillations and long-term
   - `Matplotlib`: create data visulization
 - **Environment:** `Jupyter Notebook`
 
-## 6. References
+## 7. References
 Asmat, G., and K. M. Maiyama. “Bitcoin Price Prediction Using N-Beats ML Technique.” *EAI Endorsed Transactions on Scalable Information Systems*, April 1, 2025. https://doi.org/10.4108/eetsis.9006.
 
 Mann , William. Quantitative Alpha In Crypto Markets: A Systematic Review of Factor Models, Arbitrage Strategies, and Machine Learning Applications. *HarmoniQ Insights, Quantitative Research and Technology Advisors*, 2025. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5225612. 
@@ -92,3 +120,6 @@ Oreshkin, Boris N., Dmitri Carpov, Nicolas Chapados, and Yoshua Bengio. “N-Bea
 Shumway, Robert H., and David S. Stoffer. “ARIMA Models. In: Time Series Analysis and Its Applications.” SpringerLink, January 1, 1970.
 
 Wang, Minxing, Pavel Braslavski, and Dmitry I. Ignatov. “TimeGPT’s Potential in Cryptocurrency Forecasting: Efficiency, Accuracy, and Economic Value.” Forecasting 7, no. 3 (September 10, 2025): 48. https://doi.org/10.3390/forecast7030048.
+
+## 8. Special Thanks
+I am deeply grateful to [William Mann](https://www.linkedin.com/in/william-mann-cfa/), the Managing Partner of [HarmoniQ Insights](https://www.harmoniqinsights.com/), for the invaluable insights and technical codebase provided in his [2025 research](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5225612), which served as a foundational resource for the implementation and validation of this replication study.
